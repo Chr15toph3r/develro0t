@@ -1,0 +1,964 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+
+
+.titulo-secciones {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #00ca4e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    max-width: 1080px;  
+    margin: auto;
+}
+
+.subtitulo-secciones {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000000;
+    letter-spacing: 2px;
+    max-width: 1080px;  
+    margin: auto;
+}
+
+.bc {
+    background-color:  #15579e;
+}
+/*header - header - header - header - header - header - header - header - header - header - header - header - header - header - header - header - header - header - */
+
+.header-fondo {
+    width: 100%;
+    background-color: white;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: white;
+    max-width: 1080px;
+    margin: auto;
+    height: 100px;
+}
+.contendor-header-izquierda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .contenedor-header-derecha {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+
+} */
+
+.contenedor-header-derecha {
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+
+.header-logo-develroot {
+    height: 35px;
+    width: 43px;
+}
+
+.header-div-button {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+
+}
+
+.header-logo-develroot-div {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+.develroot-logo-text {
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 4px;
+    background: #15589D;
+    background: linear-gradient(to bottom, #15589D 8%, #01C651 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-div-button {
+    justify-self: start;
+}
+
+.header-button-contactanos {
+    /*alineacion y tamaño*/
+    justify-items: center; 
+    align-items: center;
+    margin-left: auto; 
+    height: 50px;
+    width: 250px;
+    /*estilo letra y boton*/
+    font-size: 15px;
+    color: #215fa3;
+    font-weight: bold; /*negrita*/
+    border-radius: 10px;
+    background-color: efefef;
+    border-style: none;
+}
+
+/*section 1 section 1 section 1 section 1 section 1 section 1 section 1 section 1 section 1 section 1 section 1 section 1 section 1 section 1 section 1 section 1 section 1 */
+
+.section1 {
+    background-color: #f7f7f7;
+    max-width: 1080px;  
+    margin: auto;
+}
+
+.section1-div {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    grid-template-areas: 
+    "area1 area2";
+    justify-items: center; 
+    align-items: center;
+    height: 500px;
+}
+
+.section1-div-item1 {
+grid-area: area1;
+}
+
+.section-div-item2 {
+grid-area: area2;
+}
+
+.section1-texto-span1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    justify-self: right;
+    
+}
+
+.section1-texto-span2 {
+    background: #0E7C84;
+    background: linear-gradient(to top, #0E7C84 0%, #126A91 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section1-texto-span3 {
+    background: #089C6E;
+    background: linear-gradient(to top, #089C6E 0%, #05AF61 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.section1-cohete-imagen {
+    justify-self: left;
+    margin-left: 150px;
+}
+
+/*section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 section 2 */
+
+.section2-div-contenedor {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    border-bottom-left-radius: 50px; 
+    border-bottom-right-radius: 50px;
+    filter: drop-shadow(8px 7px 2px #00000057);
+    align-self: center;
+    justify-self: center;
+}
+
+.section2-div-contenedor-contenido-izquierda {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    padding: 8%;
+    height: auto;
+}
+
+
+.contenido-izquierda-item2 {
+    display: flex;
+    align-items: flex-start;
+}
+/* texto parte izquierda*/
+
+/* Obtén una cotización */
+.section2-div-contenedor-titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    background: #15579E;
+    background: linear-gradient(to right, #15579E 0%, #00C94F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 1080px;  
+    margin: auto;
+}
+
+/* O(En el plazo de una hora) */
+.section2-div-contenedor-texto-parentesis {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+/* Indícanos qué necesitas y te contactaremos con tarifas y algunos CVs acordes a tus intereses. */
+.section2-div-contenedor-parrafo {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: black;
+}
+
+/* texto e imputs parte derechaa*/
+
+.section2-div-contenedor-derecha {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 8%;
+    /* estilos fuente */
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+    
+}
+
+input[type="email"] {
+    width: 98%; 
+    height: 100%;
+    font-size: 16px; 
+    padding: 1%;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.section2-textarea-contenedor {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%; 
+    height: 100px; 
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    resize: none;
+    line-height: 20px;
+    padding: 2%; 
+}
+
+.section2-div-contenedor-derecha-item2 {
+    margin-bottom: 10%;
+}
+
+.section2-boton-enviar {
+        display: flex;
+        background-image: linear-gradient(to right, #15579e 0%, #00c84f  51%, #15579e  100%);
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+        border-radius: 5px;
+        padding: 15px 45px;
+        text-align: center;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-style: none;
+        display: block;  
+        letter-spacing: 1px;
+        font-size: 15px;
+}
+
+.section2-boton-enviar:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+
+/* barra separadora*/ 
+.barra-separadora-section2-fondo {
+    background-color:  #15579e;
+    margin-top: -45px;
+}
+
+.barra-separadora-section2-section3 {
+    background-color: #15579e;
+    height: 400px;
+    margin-top: -220;
+    max-width: 1080px;  
+    margin: auto;
+}
+
+/*section 3 section 3 section 3 section 3 section 3 section 3 section 3 section 3 section 3 section 3 section 3 section 3 section 3 section 3 section 3 section 3 */
+.section3-fondo {
+    background-color: #15579e;
+}
+
+
+.section3 {
+    background-color: #15579e;
+    height: 600px;
+    max-width: 1080px;  
+    margin: auto;
+}
+
+.section3-titulo-contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* titulos seccion */
+
+/* como funciona */
+.section3-hero-text1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Te lo ponemos muy fácil */
+.section3-hero-text2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+
+/* contenedor flechas 1 2 3 4 */
+
+.section3-fleclas-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:  
+    "flecha1 numero1 flecha2 flecha2 numero2 flecha3 flecha3 numero3 flecha4"
+    "textarea1 textarea1 textarea1 textarea2 textarea2 textarea2 textarea3 textarea3 textarea3";
+    height: 200px;
+    justify-items: center; 
+    align-items: center;
+    
+}
+
+.section3-button-1-estetico, .section3-button-2-estetico, .section3-button-3-estetico  {
+    width: 70px;
+    height: 70px;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #2b67a7;
+    /* estetica texto */
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+.buton3 {
+    grid-area: numero3;
+    
+}
+
+.buton2 {
+    grid-area: numero2;
+}
+
+.flecha-azul1 {
+    grid-area: flecha1;
+}
+
+.flecha-azul2 {
+    grid-area: flecha4;
+}
+
+.flecha-blanca1 {
+    grid-area: flecha2;
+    align-self: center;
+}
+
+.flecha-blanca2 {
+    grid-area: flecha3;
+}
+
+/* texto debajo de las flechas 1 2 3 4  */
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+.prueba1, .prueba2, .prueba3 {
+    padding: -40px;
+    text-align: center;
+}
+
+.prueba1 {
+    grid-area: textarea1;
+    text-align: center;
+}
+.prueba2 {
+    grid-area: textarea2;
+    align-self: center;
+}
+.prueba3 {
+    grid-area: textarea3;
+    align-self: center;
+}
+
+
+/* si funciono, wao */
+
+/* .section3-texto-debajo-flechas-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    justify-items: center; 
+    align-items: center;
+} */
+
+
+
+/*section 4 section 4 section 4 section 4 section 4 section 4 section 4 section 4 section 4 section 4 section 4 section 4 section 4 section 4 section 4 section 4 section 4 */
+
+.section4 {    
+    background-color:  #f7f7f7;
+    max-width: 1080px;  
+    margin: auto;
+    margin-top: 200px;
+}
+
+.section4-contenedor-titulo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+
+.titulo-seccion4 {
+    /*parte estetica*/
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #00ca4e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+.subtitulo-seccion44 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.subtitulo-secciones {
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+.section4-contenedor {
+    display: grid;
+    grid-template-columns: 0.3fr 3fr 2fr ;  
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 1080px;  
+    margin: auto;
+    grid-template-areas: 
+    "left1  middle1 right"
+    "left2  middle2 right" 
+    "left3  middle3 right";
+    align-items: center;
+    padding: 1%;
+}
+
+.item1, .item2, .item3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+
+}
+
+.item1 {
+    grid-area: middle1;
+    margin-left: 2%;
+    
+  }
+  
+  .item2 {
+    grid-area: middle2; 
+    margin-left: 2%;
+  }
+  
+  .item3 {
+    grid-area: middle3; 
+    margin-left: 2%;
+  }
+  
+  .item4 {
+    align-self: center;
+    grid-area: right; 
+  }
+
+.section4-iconos {
+    width: 52px;
+    height: 48px;
+    /* estilo letra */
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+/* lo recorte mal y tengo que cambiarle la dimension aparte -.-' */
+#section4-icono-cohete { 
+    width: 45x;
+    height: 48px;
+}
+
+/*section 5 section 5 section 5 section 5 section 5 section 5 section 5 section 5 section 5 section 5 section 5 section 5 section 5 section 5 section 5 section 5 section 5 */
+
+.section5 {
+    max-width: 1080px;
+    margin-top: 200px;
+    height: 700px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.section5-titulos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 5%;
+}
+
+.subtitulo-seccion4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.section5-contenedor-3-cajas {
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "box1 box2 box3";
+    height: 350px;
+    column-gap: 20px;
+}
+.box1 {
+    grid-area: box1;
+}
+
+.box2 {
+    grid-area: box2;
+}
+.box3 {
+    grid-area: box3;
+}
+
+.box1, .box2, .box3 {
+    /* alinear elementos al comienzo del box */
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;            
+    grid-template-rows: 100px 10% auto;
+    grid-template-areas: 
+    "imagen"
+    "titulo"
+    "descripcion";
+    align-items: flex-start;
+    justify-content: start;
+    text-align: start;
+    /* estilo de los boxes */
+    padding: 8%;
+    background-color: #ffffff;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    filter: drop-shadow(8px 7px 2px #0000002d);
+    height: auto;
+    row-gap: 2%;
+}
+
+.box-imagen-dimensiones {
+    height: 90px;
+}
+
+.box-titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.box-descripcion {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+}
+
+/*section 6 section 6 section 6 section 6 section 6 section 6 section 6 section 6 section 6 section 6 section 6 section 6 section 6 section 6 */
+
+.section6 {
+    background-color:  #f7f7f7;
+    max-width: 1080px;  
+    margin: auto;
+}
+
+.section6-titulos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.section6-contenedor-4-cajas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "cajita1 cajita2"
+    "cajita3 cajita4";
+    width: 100%;
+    margin: auto;
+    line-height: 35px;
+    row-gap: 2%;
+    column-gap: 5%;
+}
+
+.box1-section6{
+grid-area: cajita1;
+margin-left: 38%;
+}
+
+.box2-section6{
+grid-area: cajita2;
+margin-right: 38%;
+}
+
+.box3-section6{
+grid-area: cajita3;
+margin-left: 38%;
+}
+
+.box4-section6{
+grid-area: cajita4;
+margin-right: 38%;
+}
+
+.box1-section6, .box2-section6, .box3-section6, .box4-section6 {
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 350px;
+    width: 250px;
+    /* estilo de los boxes */
+    padding: 5%;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    filter: drop-shadow(8px 7px 2px #0000002a);
+}
+
+.box-descripcion-section6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #212121;
+    line-height: 30px;
+}
+
+.box-referencia-section6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #212121;
+    line-height: 30px;
+}
+
+.box-section6-descripcion-div {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+}
+
+.box-section6-referencia-div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+/*section 7 section 7 section 7 section 7 section 7 section 7 section 7 section 7 section 7 section 7 section 7 section 7 section 7 section 7 section 7 section 7 section 7 */
+
+.section7 {
+    background-color:  #f7f7f7;
+    max-width: 1080px;  
+    margin: auto;
+    height: 500px;
+    margin-top: 200px;
+}
+
+.section7-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "left11  right1"
+    "left22  right1" 
+    "left33  right1";
+    height: 320px;
+    width: 100%;
+    background-color: #00ca4e;
+    border-radius: 30px;
+    filter: drop-shadow(8px 7px 2px #00000057);
+    margin: 0% 3% 0% 3%;
+}
+
+.section7-item1 {
+    display: flex;
+    flex-direction: column; /* texto en la parte de abajo izquierda*/
+    justify-content: flex-end; 
+    align-items: flex-start;
+    grid-area: left11;
+    padding-left: 7%;
+}
+
+.section7-item2 {
+    grid-area: right1;
+}
+
+.section7-item3 {
+    display: flex;
+    flex-direction: column; /* texto en la parte del medio izquierda*/
+    justify-content: center; 
+    align-items: flex-start;
+    grid-area: left22;
+    padding-left: 7%;
+}
+
+.section7-item4 {
+    grid-area: right1;
+}
+
+.section7-item5 {
+    grid-area: left33;  /*button pero este ya viene por defecto justificado en la parte izquierda arriba */
+    display: flex;
+    flex-direction: column;     /* actualizacion: al final si hizo falta centrarlo*/
+    justify-content: center; 
+    align-items: flex-start;
+    padding-left: 7%;
+}
+
+.section7-item6 {
+    grid-area: right1;
+}
+
+/* textos section 7 */
+
+/* Potencia tu equipo. */
+.section7-titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+
+/* Obtén una cotización gratuita en menos de una hora. */
+.section7-subtitulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.section7-button {
+    height: 50px;
+    width: 250px;
+    color: white;
+    background-color: #3fd779;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.section7-cohete {
+    margin-top: -40px;
+
+}
+
+/*footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer */
+footer {
+    background-color: #363636;
+}
+
+
+.footer-responsive {
+    background-color: #363636;
+    max-width: 1080px;  
+    margin: auto;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.contenedor-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "footer-left footer-middle footer-right";
+    height: 200px;
+}
+
+.items-izquierda {
+    grid-area: footer-left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.items-medio {
+    grid-area: footer-middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 27px;
+    /*estilo del texto*/
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 10px;
+}
+
+/*grid dentro de un grid*/
+
+.items-derecha {
+    grid-area: footer-right;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "icono1 texto1"
+    "icono2 texto2"
+    "icono3 texto3"
+    "icono4 texto4";
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+.footer-logos {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+
+
+.footer-cta-logos {
+    height: 20px;
+    width: 20px;
+}
+
+/* este queda feo en 15x15 */
+
+.footer-cta-logo-email { 
+    height: 20px;
+    width: 25px;
+}
+
+.cta-footer-derecha1, .cta-footer-derecha3, .cta-footer-derecha5,.cta-footer-derecha7 {
+    display: flex;
+    flex-direction: column;     
+    justify-content: center; 
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+.cta-footer-derecha2, .cta-footer-derecha4, .cta-footer-derecha6, .cta-footer-derecha8 {
+    display: flex;
+    flex-direction: column;     
+    justify-content: center; 
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.footer-cta-texto-info {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: rgb(228, 228, 228);
+    font-size: 15px;
+}
+
+/* adicionales (esto tiene bugs, preguntarle al profesor)*/
+
+.hamburguer-div {
+    display:none;
+    width: 5px;
+    height: 5px;
+}
+
+.hamburguerr {
+    width: 5px;
+    height: 5px;
+}
